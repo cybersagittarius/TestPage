@@ -1,0 +1,36 @@
+body{
+    background-image: url('../img/skull.jpg');
+}
+
+.FlexContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: block;
+    font-size: xx-large;
+    font-weight: 600;
+    color: tomato;
+    text-align: center;
+    background-color: lime;
+}
+
+label {
+    display: inline-block;
+    font-size: xx-large;
+    font-weight: 300;
+    color: white;    
+}
+
+img {
+    height: 400px;
+    width: 500px;
+}
+
+iframe, video {
+    display: block;   
+    margin: auto;   
+}
