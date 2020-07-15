@@ -1,5 +1,7 @@
 body{
-    background-image: url('../img/skull.jpg');
+    background-image: url('skull.jpg');
+    background-position: absolute;
+    left: 0;
 }
 
 .FlexContainer {
